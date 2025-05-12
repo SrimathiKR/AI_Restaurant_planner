@@ -2,7 +2,7 @@ import os
 from langchain_groq import ChatGroq
 
 # Set your API key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "gsk_*******"  #use your own API
 
 # Initialize ChatGroq
 llm = ChatGroq(
